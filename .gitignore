@@ -1,0 +1,36 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+myvenv/
+
+# Environment variables
+.env
+
+# SQLite database
+db.sqlite3
+
+# Static & media (optional)
+staticfiles/
+media/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build artifacts or temporary
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Vercel build output (optional)
+.vercel/
+build_files.sh
+
+# Node modules (if you use npm in future)
+node_modules/
