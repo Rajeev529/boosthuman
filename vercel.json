@@ -14,5 +14,16 @@
       "src": "/(.*)",
       "dest": "project/wsgi.py"
     }
+  ],
+  "excludeFiles": [
+    "**/tests/**",
+    "**/__pycache__/**",
+    "**/venv/**",
+    "**/media/**"
+  ],
+  "includeFiles": [
+    "**/*.py",
+    "**/requirements.txt",
+    "**/staticfiles/**"
   ]
 }
