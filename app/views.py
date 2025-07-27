@@ -24,13 +24,14 @@ def blog(request):
 
 def listing(request, string):
     val=string.replace('%20', ' ')
-
+    
     dic1=map.dic()
     arr=map.storewish
 
     csvpath=os.path.join(settings.BASE_DIR,'static/assets/data/datacollected2.csv')
     df=pd.read_csv(csvpath)
     data=df[df["course"] == val].to_dict(orient='records')
+
     return render(request, 'listing.html', {'data':data,'arr':arr, 'dic1':dic1.items()})
 
 def listing2(request):

@@ -90,7 +90,7 @@
                                     <ul>
                                         {% for i, j in  dic1 %}
                                         <li>
-                                            <a href="about.html" class="sf-with-ul">{{i}}</a>
+                                            <a href="#" class="sf-with-ul">{{i}}</a>
                                             <ul>
                                                 {% for k in j %}
                                                 <li><a href="{% url 'listing' k|urlencode %}">{{k}}</a></li>
@@ -108,8 +108,8 @@
 
                                     <ul>
                                         <li><a href="/blog">blog</a></li>
-                                        <li><a href="blog.html">Classic</a></li>
-                                        <li><a href="blog.html">Classic</a></li>
+                                        <li><a href="#">Comming soon</a></li>
+                                        <li><a href="#">Comming soon</a></li>
                                         
                                     </ul>
                                 </li>
@@ -180,18 +180,18 @@
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
                     <li>
-                        <a href="category.html">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
                         <a href="#">Courses</a>
                         <ul>
                             {% for i, j in dic1 %}
                             <li>
-                                <a href="about.html">{{i}}</a>
+                                <a href="#">{{i}}</a>
 
                                 <ul>
                                     {% for k in j %}
-                                    <li><a href="about.html">{{k}}</a></li>
+                                    <li><a href="{% url 'listing' k|urlencode %}">{{k}}</a></li>
                                     {% endfor %}                                    
                                 </ul>
                             </li>
@@ -202,18 +202,16 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="#">Blog</a>
 
                         <ul>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-listing.html">About</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="#">About(comming soon)</a></li>
                             <li>
-                                <a href="#">Grid</a>
+                                <a href="#">Indian Influencers</a>
                                 <ul>
-                                    <li><a href="blog-grid-2cols.html">Grid 2 columns</a></li>
-                                    <li><a href="blog-grid-3cols.html">Grid 3 columns</a></li>
-                                    <li><a href="blog-grid-4cols.html">Grid 4 columns</a></li>
-                                    <li><a href="blog-grid-sidebar.html">Grid sidebar</a></li>
+                                    <li><a href="#">comming soon</a></li>
+                                    
                                 </ul>
                             </li>
                         </ul>
