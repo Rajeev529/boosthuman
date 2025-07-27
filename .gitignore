@@ -29,7 +29,6 @@ Thumbs.db
 *.pyo
 
 # Vercel build output (optional)
-.vercel/
 build_files.sh
 
 # Node modules (if you use npm in future)
