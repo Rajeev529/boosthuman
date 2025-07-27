@@ -27,7 +27,6 @@ httpx-sse==0.4.1
 idna==3.10
 jsonpatch==1.33
 jsonpointer==3.0.0
-langchain==0.3.27
 langchain-community==0.3.27
 langchain-core==0.3.72
 langchain-google-genai==2.1.8
