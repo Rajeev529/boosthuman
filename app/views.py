@@ -7,6 +7,11 @@ import random
 import pandas as pd
 from django.conf import settings
 # Create your views here.
+
+
+def about(request):
+    dic1=map.dic()
+    return render(request, 'about.html',{'dic1':dic1.items()})
 def wishlist(request):
     dic1=map.dic()
     arr=map.storewish

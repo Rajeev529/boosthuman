@@ -12,4 +12,5 @@ urlpatterns = [
     path("listing/<path:string>/", views.listing, name="listing"),
     path("listing2", views.listing2, name="listing2"),
     path("chatbot", llm.chatbot, name="chatbot"),
+    path("about", views.about, name="about"),
 ]
